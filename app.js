@@ -40,7 +40,7 @@ async function start() {
   const browser = await puppeter.launch();
   const page = await browser.newPage();
 
-  await page.goto('http://www.instagram.com/p/CChMVvQgYKK/');
+  await page.goto('https://www.instagram.com/p/ChgPE76DfCw/');
 
   // class="dCJp8 afkep"
   await loadMore(page, '.dCJp8');
